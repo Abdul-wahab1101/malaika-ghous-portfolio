@@ -1,29 +1,21 @@
-# Malaika Ghous — Digital Portfolio
+# Malaika Ghous — Portfolio
 
-A responsive, single-page portfolio website.
+A bright, responsive personal portfolio with an interactive three-view avatar, scroll-reveal motion, mobile navigation and a featured ToolZen project.
 
-## Publish with GitHub Pages
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then Save.
-4. Wait for GitHub Pages to finish its first deployment.
+## Live links
+- Portfolio: https://abdul-wahab1101.github.io/malaika-ghous-portfolio/
+- ToolZen: https://abdul-wahab1101.github.io/toolzen-tools/
+- ToolZen source: https://github.com/Abdul-wahab1101/toolzen-tools
 
-Expected URL: https://abdul-wahab1101.github.io/malaika-ghous-portfolio/
+## GitHub Pages
+This repository is configured to publish from `main` and the root folder:
+**Settings → Pages → Deploy from a branch → main → /(root)**.
 
-## Required supporting files
-The homepage links to the following files. Add the supplied originals while keeping these exact paths:
-- `assets/avatar-view-1.webp`
-- `assets/avatar-view-2.webp`
-- `assets/avatar-view-3.webp`
-- `assets/Malaika-Ghous-Resume.pdf`
-- `certificates/Freelancing-Certificate.pdf`
-- `certificates/Virtual-Assistant-Certificate.pdf`
-- `certificates/UI-UX-and-Webflow-Certificate.pdf`
-- `certificates/Data-Analytics-and-BI-Certificate.pdf`
-
-The three avatar views power the click/keyboard angle switcher. The PDFs are opened by the résumé and certificate links.
+## Interactive avatar
+The three supplied avatar angles are optimized into `assets/avatar-views.webp`. Drag horizontally to move between views and add a subtle 3D tilt; click or use the arrow keys to switch views. The image is embedded as a repository asset, so it does not rely on an external image host.
 
 ## Notes
-- The content is based on the résumé and four DigiSkills certificates supplied for this portfolio.
-- The avatar viewer is a three-image view switcher, not a rigged 3D model.
-- No project case studies or proficiency ratings have been invented.
+- Portfolio text is based on the supplied résumé and DigiSkills certificates.
+- Certificate names are displayed; downloadable PDF attachments are not currently published in this repository.
+- The ToolZen card links to the live project and its GitHub repository.
+- This site uses no paid services or external JavaScript libraries. Google Fonts are loaded from Google Fonts when available.
